@@ -1,0 +1,108 @@
+body {
+    font-family: "PT Serif";
+    color: #fff;
+    /* fallback */
+     background-color: #2F2727;
+     background-image: url(images/radial_bg.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+
+     /* Safari 4-5, Chrome 1-9 */
+     /* Can't specify a percentage size? Laaaaaame. */
+     background: -webkit-gradient(radial, center center, 0, center center, 460, from(#0142F7), to(#2F2727));
+
+     /* Safari 5.1+, Chrome 10+ */
+     background: -webkit-radial-gradient(circle, #0142F7, #2F2727);
+
+     /* Firefox 3.6+ */ 
+     background: -moz-radial-gradient(circle, #0142F7, #2F2727);
+
+     /* IE 10 */ 
+     background: -ms-radial-gradient(circle, #0142F7, #2F2727);
+
+     /* Opera cannot do radial gradients yet */
+}
+#container {
+    width: 500px;
+    margin: 0 auto;
+}
+h1, h3 {
+    font-family: Kreon;
+}
+#info {
+    text-align: center;
+}
+span.two {
+    color: white;
+}
+span.two:hover {
+    color: blue;
+}
+p {
+    
+}
+a:link {
+    color: #FF0;
+}
+a.learn-more {
+    background: white;
+    color: blue;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-shadow: none;
+    font-weight: bold;
+}
+#logo {
+    background: url("../img/earth.png") no-repeat;
+    width: 256px;
+    height: 256px;
+    text-indent: 9999px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.button {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #fff !important;
+	padding: 5px;
+	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	text-decoration: none;
+	
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.3);
+	padding: 6px 10px 6px;
+	
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	background: #ee440c;
+	background: -moz-linear-gradient(top,  #ffc1ad 0%, #ee440c 5%, #cb3a0a 99%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffc1ad),  color-stop(4%,#ee440c), color-stop(99%,#cb3a0a)); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc1ad', endColorstr='#cb3a0a',GradientType=0 );
+	border: 1px solid #AA0000;
+	position: relative;
+	top: -11px;
+}
+.button:hover {
+	border-bottom: 1px solid #C50505;
+	
+	-webkit-box-shadow:0 2px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:0 2px 1px rgba(0, 0, 0, 0.3);
+	box-shadow:0 2px 1px rgba(0, 0, 0, 0.3);
+}
+.button:active{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.download-button {
+    text-align: center;
+}
+#details {
+    color: black;
+    padding: 0 20px;
+}
